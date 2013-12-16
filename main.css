@@ -1,0 +1,160 @@
+body, html {
+	height: 100%;	
+}
+
+#welcome{
+	font-family: Impact;
+	margin: auto;
+	color: white;
+	width: 20%;
+	text-align: center;
+	font-size: 20px;
+}
+#welcome #title{
+	font-size: 40px;
+}
+#welcome #start{
+	color:red;
+}
+
+
+#welcome #start:hover{
+	text-decoration: underline;
+}
+
+#question {
+	margin: auto;
+	margin-top: 5px;
+	border: 5px solid black;
+	border-radius: 10px;
+	position:absolute;
+	width: 30%;
+	background-color: white;
+	text-align: center;
+}
+#quest_background{
+	max-width: 50%;
+	height: 100%;
+	position: absolute; 
+	top: 0; left: 0; 
+	z-index:0;
+}
+#quest_pic{
+}
+.holder{
+	float: right;
+	width: 50%;
+}
+#background{
+	position: absolute; 
+	top: 0; left: 0; 
+	width: 100%; 
+	z-index:-1;
+}
+
+#quest_title{
+	height: 40px;
+	background-color: white;
+	margin: auto;
+	padding-top: .1in;
+	z-index:1;
+	font-size: 20px;
+}
+#answer_copy_me{
+	width: 1in;
+	height: .25in;
+	margin-top: .25in;
+	margin-left: 1in;
+}
+.hidden{
+	display: none;
+}
+
+#answer_button{
+	width:1in;
+	height: .25in;
+	background-color: black;
+	font-size: .2in;
+	color: white;
+    line-height: normal;     
+	display: inline-block;
+    vertical-align: middle;
+	margin-top: .25in;
+	border-style: solid;
+	border-radius: .20in;
+	border-width: .03in;
+	border-color: gray;
+}
+#answer_button:hover{
+	color: red;
+}
+.possibleAnswer{
+	margin-top: .2in;
+}
+
+#answer_text{
+	padding: 0px;
+	display: inline;
+}
+
+.answer{
+	text-align: center;
+	position: relative;
+	top: 100px;
+	width: 30%;
+	height: 150px;
+	margin:auto;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	border-radius: 20px;
+	border-width: .03in;
+	border-color: gray;
+	padding-top: 30px;
+}
+
+
+
+.answer span{
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.nextButton{
+	color:red;
+	font-size: 15px;
+	display: block;
+}
+
+.explain{
+	font-size: 15px;
+	display: block;
+}
+
+.nextButton:hover{
+	text-decoration: underline;
+}
+#done{
+	text-align: center;
+	position: relative;
+	top: 30px;
+	width: 10%;
+	height: 110px;
+	margin:auto;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	border-radius: 20px;
+	border-width: .03in;
+	border-color: gray;
+	padding-top: 30px;
+}
+#done span {
+	display: block;
+	font-size: 20px;
+	margin-top: 15px
+
+}
