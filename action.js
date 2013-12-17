@@ -51,11 +51,23 @@ $(document).ready(function() {
     question: "What year was Led Zeppelin inducted into rock and roll hall of fame?",
     answers: ["1985", "1993", "1995", "1999", "2001"],
     correct: 2,
-    explain: "Cool timeline of Led Zeppelin stuff: http://rockhall.com/inductees/led-zeppelin/timeline/",
+    explain: "Leed Zeppelin entered the RAR HOF in 1995. Cool timeline of Led Zeppelin stuff: http://rockhall.com/inductees/led-zeppelin/timeline/",
   };
-  var quest_list = [question1, question2, question3, question4, question5, question6, question7, question8];
+  var question9 = {
+    question: "Which song has this lyric? 'In the days of my youth, I was told what it means to be a man.'",
+    answers: ['Hey Hey What Can I Do?', 'Black Dog', 'Good Times Bad Times', 'Dancing Days'],
+    correct: 2,
+    explain: "Good Times Bad Times is the opening track on Led Zeppelin I. Jones (the bassist) says that this the riff he wrote for this song was the most difficult one he ever wrote",
+  };
+  var question10 = {
+    question: "What\'s the first band that comes up on YouTube when you search \'Greatest hard rock band ever\'?",
+    answers: ['Beatles', 'The Who', 'Metallica', 'Led Zeppelin'],
+    correct: 3,
+    explain: "Led Zeppelin are widely considered one of the most successful, innovative and influential rock groups in history.",
+  };
+  var quest_list = [question1, question2, question3, question4, question5, question6, question7, question8, question9, question10];
   var numQuestions = quest_list.length;
-  var numPictures = 10;
+  var numPictures = 14;
   var score = 0;
   var currentlyClicked = -1; //Index of currently selected answer
   var currentQuestion = 0; //Index of current question

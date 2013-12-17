@@ -20,6 +20,7 @@ body, html {
 
 #welcome #start:hover{
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 #question {
@@ -28,7 +29,7 @@ body, html {
 	border: 5px solid black;
 	border-radius: 10px;
 	position:absolute;
-	width: 30%;
+	width: 50%;
 	background-color: white;
 	text-align: center;
 }
@@ -39,8 +40,7 @@ body, html {
 	top: 0; left: 0; 
 	z-index:0;
 }
-#quest_pic{
-}
+
 .holder{
 	float: right;
 	width: 50%;
@@ -56,9 +56,11 @@ body, html {
 	height: 40px;
 	background-color: white;
 	margin: auto;
+	margin-left: 10px;
+	margin-right: 10px;
 	padding-top: .1in;
 	z-index:1;
-	font-size: 20px;
+	font-size: 18px;
 }
 #answer_copy_me{
 	width: 1in;
@@ -87,6 +89,7 @@ body, html {
 }
 #answer_button:hover{
 	color: red;
+	cursor: pointer;
 }
 .possibleAnswer{
 	margin-top: .2in;
@@ -135,12 +138,13 @@ body, html {
 
 .nextButton:hover{
 	text-decoration: underline;
+	cursor: pointer;
 }
 #done{
 	text-align: center;
 	position: relative;
-	top: 30px;
-	width: 10%;
+	top: 70px;
+	width: 20%;
 	height: 140px;
 	margin:auto;
 	background-color: white;
